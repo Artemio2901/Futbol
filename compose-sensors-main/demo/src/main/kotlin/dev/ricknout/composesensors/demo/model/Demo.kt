@@ -8,6 +8,7 @@ enum class Demo(
     val iconResourceId: Int,
 ) {
     NONE("", View.NO_ID),
+    FUTBOLITO("Futbolito ⚽", R.drawable.ic_accelerometer_24dp),
     ACCELEROMETER("Accelerometer", R.drawable.ic_accelerometer_24dp),
     AMBIENT_TEMPERATURE("Ambient Temperature", R.drawable.ic_ambient_temperature_24dp),
     GRAVITY("Gravity", R.drawable.ic_gravity_24dp),
