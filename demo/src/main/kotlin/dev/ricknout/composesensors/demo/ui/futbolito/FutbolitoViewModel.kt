@@ -13,12 +13,12 @@ class FutbolitoViewModel : ViewModel() {
     private val _scoreBottom = MutableStateFlow(0)
     val scoreBottom: StateFlow<Int> = _scoreBottom.asStateFlow()
 
-    /** Call when the ball enters the TOP goal (opponent scores). */
+
     fun onGoalTop() {
         _scoreTop.value++
     }
 
-    /** Call when the ball enters the BOTTOM goal (home scores). */
+
     fun onGoalBottom() {
         _scoreBottom.value++
     }
