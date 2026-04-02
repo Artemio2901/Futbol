@@ -197,7 +197,7 @@ fun FutbolitoScreen(vm: FutbolitoViewModel = viewModel()) {
                 .padding(paddingValues)
         ) {
 
-            // ── Field + ball canvas ───────────────────────────────────────
+
             Canvas(modifier = Modifier.fillMaxSize()) {
                 val ballRadius = BALL_RADIUS_DP.dp.toPx()
                 val goalDepth  = GOAL_DEPTH_DP.dp.toPx()
