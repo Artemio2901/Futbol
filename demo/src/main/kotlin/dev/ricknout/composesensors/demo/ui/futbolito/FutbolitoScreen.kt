@@ -204,7 +204,7 @@ fun FutbolitoScreen(vm: FutbolitoViewModel = viewModel()) {
                 val goalW      = size.width * GOAL_W_RATIO
                 val goalX      = (size.width - goalW) / 2f
 
-                // Capture field size and initialise ball on first frame
+
                 if (!initialised && size.width > 0f && size.height > 0f) {
                     fieldW = size.width
                     fieldH = size.height
